@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Terminal</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link type="text/css" href="/static/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="terminal">
+    <div id="instructions">
+      <p>
+        <span style="color: #23c00f;">[+]</span>
+        <span> Importing Modules...</span>
+      </p>
+      <p style="font-size: 12px; font-weight: 900; color: #0F0;">
+        __ &nbsp;&nbsp;_ _____ _ &nbsp;&nbsp;&nbsp;&nbsp;_ _____ _____ _<br>
+        |&nbsp;\ &nbsp;| |____ &nbsp;\___/ &nbsp;|____ &nbsp;&nbsp;| &nbsp;&nbsp;|<br>
+        | &nbsp;\_| |____ _/ &nbsp;&nbsp;\_ | &nbsp;&nbsp;&nbsp;&nbsp;__|__ |_____<br>
+      </p>
+      <p style="color: #23c00f;">
+        [>]
+        <span style="color: #28b2db;"> Created By &nbsp;&nbsp;:</span>
+        <span style="color: #c2c2c2;"> thewhiteh4t</span><br>
+        <span style="color: #28b2db;"> &nbsp;|---> GitHub &nbsp;&nbsp; : </span>
+        <span style="color: #c2c2c2;"> https://github.com/thewhiteh4t</span><br>
+        [>]
+        <span style="color: #28b2db;">Hosted By &nbsp;&nbsp; : </span>
+        <span style="color: #c2c2c2;"> adamspera</span><br>
+        <span style="color: #28b2db;"> &nbsp;|---> GitHub &nbsp;&nbsp; : </span>
+        <span style="color: #c2c2c2;"> https://github.com/adamspera</span><br>
+        [=]
+        <span style="color: #28b2db;">Version &nbsp;&nbsp;&nbsp;&nbsp; : </span>
+        <span style="color: #c2c2c2;"> 1.0.2</span><br>
+      </p>
+      <p>
+        <span style="color: #f0e111;">[!]</span>
+        <span style="color: #28b2db;"> Starting Terminal...</span>
+        <br>
+        <span style="color: #f0e111;">[!]</span>
+        <span style="color: #28b2db;"> Enter target username...</span>
+      </p>
+    </div>
+    <div id="input">
+      <span class="prompt">~ $</span>
+      <input type="text" autofocus>
+      <span style="border: 1px solid rgb(29, 29, 29); padding-top: 1px; padding-bottom: 2px; cursor: pointer;"
+        onclick="submitUsername()" id="loading">&nbsp; > &nbsp;</span>
+    </div>
+    <div id="output">
+      <div id="output-content">
+        <!-- Your content here -->
+      </div>
+    </div>
+  </div>
+  <script src="static/index.js"></script>
+</body>
+
+</html>
